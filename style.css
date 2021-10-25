@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  width: 1000px;
+  border: 1px solid black;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.clearfix{
+  clear: both;
+}
+
+header{
+  height: 100px;
+  display: flex;
+  
+}
+
+.center{
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid black;
+}
+h1{
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: bold;
+ }
+h3{
+  font-size: 20px;
+  text-decoration: underline;
+}
+.content{
+  position: relative;
+}
+.contacts{
+  float: left;
+  margin-left: 50px;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  padding-left: 20px;
+}
+nav li{
+  margin-right: 40px;
+  height: 30px;
+}
+.name{
+  text-align: center;
+  margin-top: 40px;
+}
+.experience{
+  width: 600px;
+  margin: 50px auto;
+  
+}
+.experience li{
+  margin-top: 20px;
+  font-family: cursive;
+}
+.experience ul{
+  padding: 40px;
+}
+
+.photo{
+  width: 200px;
+  height: 200px;
+  top: 30px;
+  right: 30px;
+  position: absolute;
+  
+}
