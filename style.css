@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-color: #000;
+}
 .wrapper{
   width: 1000px;
   border: 1px solid black;
@@ -43,6 +46,19 @@ h3{
 .contacts{
   float: left;
   margin-left: 50px;
+}
+.phone{
+  display: block;
+  margin-right: 50px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  float: right;
+}
+.phone:hover{
+  color: blue;
 }
 nav ul{
   display: flex;
